@@ -5,3 +5,8 @@
 #list-item {
     grid-column: 1;
 }
+
+
+#list-item-media {
+    width: 100%;
+}
