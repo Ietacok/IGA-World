@@ -1,0 +1,7 @@
+#list-items {
+    display: grid;
+}
+
+#list-item {
+    grid-column: 1;
+}
