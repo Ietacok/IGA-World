@@ -1,3 +1,8 @@
+#shop {
+    width: 100%;
+    height: auto;
+}
+
 .list-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -8,8 +13,8 @@
 
 .list-item {
     grid-column: 1;
-
-    height: 280px;
+    
+    aspect-ratio: 8/10;
 }
 
 .list-item-media-div {
@@ -20,7 +25,8 @@
 }
 
 .list-item-media {
-    
+    background-color: aliceblue;
 
+    width: 100%;
 }
 
