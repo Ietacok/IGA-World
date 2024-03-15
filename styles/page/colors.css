@@ -1,7 +1,7 @@
 :root {
-    --col: rgb(96, 105, 105);
-    --col2: rgb();
-    --col3: rgb();
-    --col4: rgb();
-    --col5: rgb();
+    --col: white;
+    --col2: azure;
+    --col3: rgb(240, 235, 235);
+    --col4: rgb(222, 216, 213);
+    --col5: rgb(201, 197, 187);
 }
