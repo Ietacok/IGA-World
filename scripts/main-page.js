@@ -1,5 +1,6 @@
 let scripts = [
-    "/client-effects/main-page.js"
+    "/client-effects/main-page.js",
+    "/scripts/shop/shop-load-wrap.js"
 ];
 
 function onload()

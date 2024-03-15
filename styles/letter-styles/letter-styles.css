@@ -1,11 +1,15 @@
-.b-l {
+.h-l {
+ font-size: xx-large;
+}
 
+.b-l {
+ font-size: larger;
 }
 
 .m-l {
-
+ font-size: medium;
 }
 
 .s-l {
-    
+ font-size: small;   
 }
