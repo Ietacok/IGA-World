@@ -1,5 +1,5 @@
 :root {
-    --row-height: 350px;
+    --row-height: 400px;
     --global-gradient: linear-gradient(180deg, rgba(197,196,207,1) 0%, rgba(206,207,213,1) 25%, rgba(208,210,214,1) 72%, rgba(197,196,207,1) 100%);
 }
 
@@ -24,7 +24,7 @@
 }
 
 .image-holder {
-    overflow-y: hidden;
+ overflow-y: hidden;
 }
 
 .product-image {
