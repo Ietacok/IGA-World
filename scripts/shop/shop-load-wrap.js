@@ -1,11 +1,25 @@
-import * as shop_manager from "./shop-manager"
+
+import * as shop_manager from "./shop-manager.js"
 
 let filter = shop_manager.createFilterOptions();
 
 function set_tiles(total_area)
 {
  let tiles_group = [];
+ let shop = document.querySelector("#shop-list");
+ console.log(total_area);
+ for (let x = 0;x < Math.floor(total_area*0.25);x++)
+ {
+  let row = document.createElement("tr");
+  for (let y = 0;y < 4;y++)
+  {
+   let product = shop_manager.createProductItem();
+   row.appendChild(product);
+   tiles_group.push(product);
+  }
 
+  shop.appendChild(row);
+ }
  return tiles_group;
 }
 

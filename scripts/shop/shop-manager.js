@@ -43,3 +43,9 @@ export function getProducts(Filter_Options,AdvertisedCount,OtherProductsCount)
  }
  return products;
 }
+
+export function createProductItem()
+{
+ return document.querySelector("#item").content.cloneNode(true);  
+}
+
