@@ -21,25 +21,15 @@ export function createFilterOptions()
  }
 }
 
-export function getProducts(Filter_Options,AdvertisedCount,OtherProductsCount)
+export function getProducts(Filter_Options,ProductsCount)
 {
  let products = [];
- let count = (AdvertisedCount+OtherProductsCount);
+ let count = ProductsCount;
  while (count != 0)
  {
     let pr = getProduct();
-
-    let random_number = (Math.random() * count);
-
-    if (random_number <= AdvertisedCount)
-    {
-        pr.Scale.x = 2;
-        pr.Scale.y = 2;
-        AdvertisedCount--;
-        count--;
-    }
-
     products.push(pr);
+    count--;
  }
  return products;
 }

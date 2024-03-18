@@ -9,6 +9,7 @@
 
     <script src="scripts/main-page.js"></script>
 
+
     <title>Główna strona</title>
 </head>
 <body>
@@ -17,14 +18,6 @@
             <div class="content">
                 <div class="image-holder">
                     <img class="product-image" src="./img/logo/logo_wersja2.png" alt="">
-                    <div class="button-holder">
-                     <div class="left">
-                      
-                     </div>
-                     <div class="right">
-
-                     </div>
-                    </div>
                 </div>
                 <div class="product-description">
                     
@@ -34,7 +27,7 @@
     </template>
     <template id="main">
         <script src="scripts/client-effects/main-page.js"></script>
-        <script type="module" src="scripts/shop/shop-load-wrap.js"></script>
+        <script type="module" src="scripts/shop/shop-load-wraper.js"></script>
         <script src="scripts/shop/shop-manager.js"></script>
     </template>
   <div id="baner-section">
@@ -53,7 +46,7 @@
   </div>
   <div id="content">
      <div id="info">
-
+       
      </div>
      <div id="shop">
         <table id="shop-list">
