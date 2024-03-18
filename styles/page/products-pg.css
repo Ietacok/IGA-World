@@ -32,8 +32,9 @@
 }
 
 #shop-list tr td {
- height: var(--row-height);
- padding: 0px;
+ height: clamp(200px, var(--row-height), 25%);
+ padding: 5px;
+
 }
 
 #shop-list tr {
